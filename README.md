@@ -15,6 +15,7 @@ L.writeDebugLogs(BuildConfig.DEBUG);
 
 <br>
 2.加载网络图片
+```Java
         TinyImageLoader.create("http://pic.baike.soso.com/p/20140111/20140111121833-809734577.jpg")
                 //设置图片解码格式
                 .setBitmapConfig(Bitmap.Config.RGB_565)
@@ -38,9 +39,13 @@ L.writeDebugLogs(BuildConfig.DEBUG);
 ```
 <br>
 3.加载SD卡图片
+```Java
 TinyImageLoader.create(file:///" + imagePath)
+```
 <br>
 4.加载Res图片
+```Java
 TinyImageLoader.create(drawable://" + R.drawable.xxx)
+```
 <br>
 时间匆忙,先到这里了,后续有空更新
