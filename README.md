@@ -36,6 +36,7 @@ L.writeDebugLogs(BuildConfig.DEBUG);
                 //如果是七牛图片,可以设置宽高,在七牛上进行等比裁剪
 //                .setQiniu(500,500)
                 .into(view);
+                //样式很多.我就不一一举例了
 ```
 <br>
 3.加载SD卡图片
